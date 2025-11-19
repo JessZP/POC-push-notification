@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "243737349718",
+    "project_id": "poc-push-ambientes",
+    "storage_bucket": "poc-push-ambientes.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243737349718:android:8573a27f6a473ef45b35f7",
+        "android_client_info": {
+          "package_name": "com.example.pocpushnotification.poc1.qa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWlulfwpYkAhEAKY1DiAeyjXHl4peKUxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

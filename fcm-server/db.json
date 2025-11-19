@@ -1,0 +1,59 @@
+{
+  "students": {
+    "poc1qa123456": {
+      "token": "",
+      "partner": "",
+      "environment": "",
+      "courses": [
+        "123"
+      ],
+      "version": ""
+    },
+    "poc1staging123456": {
+      "token": "c3H4RSCJSsK8FDM1re-5y9:APA91bFNzSJClzOoiHE9ryhLDlhGTKTRGoAp4v5zyQZ60liDpUs6s5cxNK5xQM8EqbmnS2HfmRyqzFldoAKADk77iJ1d8co9l82z8DxMTCFqwKFOGO9qX4I",
+      "partner": "poc1",
+      "environment": "staging",
+      "courses": [
+        "456"
+      ],
+      "version": "2.0",
+      "updatedAt": "2025-11-21T22:11:38.026Z"
+    },
+    "poc1release123456": {
+      "token": "",
+      "partner": "",
+      "environment": "",
+      "courses": [
+        "789"
+      ],
+      "version": ""
+    },
+    "poc2qa123456": {
+      "token": "",
+      "partner": "",
+      "environment": "",
+      "courses": [
+        "321"
+      ],
+      "version": ""
+    },
+    "poc2staging123456": {
+      "token": "",
+      "partner": "",
+      "environment": "",
+      "courses": [
+        "654"
+      ],
+      "version": ""
+    },
+    "poc2release123456": {
+      "token": "",
+      "partner": "",
+      "environment": "",
+      "courses": [
+        "987"
+      ],
+      "version": ""
+    }
+  }
+}
