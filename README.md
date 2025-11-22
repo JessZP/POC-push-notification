@@ -110,16 +110,43 @@ $$\text{parceiro-ambiente}$$
 
 ### 🖥️ Testando o Backend
 
-1.  **Abrir o Projeto fcm-server** no VSCode.
-2.  **Instalar Dependências:**
-    ```bash
-    npm install
-    ```
-3.  **Executar o Servidor:**
-    ```bash
-    npm run dev
-    ```
-    O servidor será iniciado em `http://localhost:3000`.
+1.  **Abrir o Projeto fcm-server** no VSCode ou outro editor de sua preferência.
+    
+2.  npm install
+    
+3.  **Colocar os Arquivos de Credenciais Firebase na Raiz do Projeto:**
+    
+    *   Para cada parceiro (poc1, poc2, etc.), obtenha o arquivo service-account.json correspondente.
+        
+    *   Renomeie para:
+        
+        *   service-account-poc1.json
+            
+        *   service-account-poc2.json
+            
+    *   Coloque-os na **raiz do projeto**, no mesmo nível do index.js.
+       
+        
+4.  **Executar o Script de Setup das Variáveis de Ambiente:**
+    
+       ```bash
+    source ./setup-env.sh
+       ```
+        
+       ```
+    bash .\setup-env.ps1
+       ```
+        
+    *   Esse script carrega as credenciais do Firebase nas variáveis de ambiente usadas pelo servidor.
+        
+6.  **Rodar o servidor**
+     ```bash
+      npm run dev
+     ```
+    
+    *   O servidor será iniciado em http://localhost:3000.
+        
+7.  Servidor rodando na porta 3000
 
 ### 📱 Testando o App Android
 
@@ -133,6 +160,7 @@ Para simular a segmentação, utilize múltiplos emuladores, um para cada combin
       * Ambiente (`qa`, `staging`, `release`)
 3.  **Rodar o App:** Execute o aplicativo em cada emulador.
 4.  **Verificação:** Na tela do app, verifique os dados exibidos: **Partner**, **Environment**, **Version** e **Token**.
+5.  **Observação:** Para rodar o **app release**, será necessário ter o arquivo de credenciais.
 
 -----
 
