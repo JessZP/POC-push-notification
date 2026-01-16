@@ -181,12 +181,6 @@ curl -X POST http://localhost:3000/api/push \
   }'
 ```
 
------
-
-## 🎥 Vídeo Demonstrativo
-
-https://github.com/user-attachments/assets/a2f98766-6b08-465b-b827-adb8e54a64f3
-
 
 
 
